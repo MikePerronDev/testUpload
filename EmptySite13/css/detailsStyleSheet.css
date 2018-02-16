@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: url(img/pic4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;    
+}
+.paragraph{
+    width: 100%;
+    font-family: Lobster;
+    text-shadow: 20px 10px 30px #000;
+    position: relative;
+    color: #ffffff;
+    font-size: 5.3em;
+    text-align: center;
+    vertical-align: central;
+    padding: 0;
+    margin: 0;
+    padding-top: 5%;
+}
+form{
+    font-family: 'Lucida Sans';
+    font-size: 1em;
+    color: #ffffff;
+    margin-top: 10%;
+    height:auto;
+    vertical-align:top;
+    text-align: center;
+}
+table{
+    
+    background: rgba(0,0,0,.8);
+    text-align:center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-bottom: 50px;
+}
+table tr th{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-bottom: solid 1px #ffc5e8;
+}
+table tr th:hover{
+    color: #fcddf0;
+  	transition: all ease-in-out 250ms;
+}
+table tr td{
+    margin: 0;
+    padding: 2%;
+}

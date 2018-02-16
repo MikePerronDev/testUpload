@@ -1,0 +1,83 @@
+.header{
+    background: rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: 0;
+    display:inline-block;
+    color: #ffffff;
+}
+.header::after {
+	content: '';
+	display: inline-block;
+	clear: both;
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    float: left;
+    text-decoration: none;
+	text-transform: uppercase;
+	padding: 1%;
+	margin: 1%;
+}
+.logo a{  
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo a:hover{
+    color: #ff00a3;
+  	transition: all ease-in-out 250ms;
+}
+nav{
+    display: inline-block;
+    position:inherit;
+    float: right;
+    padding: 1%;
+	margin: 1%;
+    float: right;   
+}
+nav ul {
+    display: inline-block;
+	list-style: none;
+    padding: 0;
+    margin: 0;  
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+nav li {
+    display:inline-block;
+	position: relative;
+    margin:0;
+    padding: 0;
+}
+nav a {
+    margin-right: 15px;
+    padding: 2px;
+    text-align: center;
+    vertical-align: central;
+    display:table;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+  	text-transform: uppercase;
+}
+nav a:hover {
+  	color: #ff00a3;
+  	transition: all ease-in-out 250ms;
+}
+nav a::before {
+  	content: '';
+  	display: block;
+  	height: 2px;
+  	background-color: #ff00a3;
+  	position: absolute;
+  	top: 0;
+  	width: 0%;
+  	transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+  	width: 100%;
+}

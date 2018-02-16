@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: url(img/pic1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;    
+}
+.paragraph{
+    width: 100%;
+    font-family: Lobster;
+    text-shadow: 20px 10px 20px #000;
+    position: relative;
+    color: #ffffff;
+    font-size: 6em;
+    text-align: center;
+    vertical-align: central;
+    padding: 0;
+    margin: 0;
+}
+.addWineForm
+{
+   display: inline-block;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 5%;
+   margin-bottom: 10%;
+   width: 80%;
+   padding: 30px 40px;
+   box-sizing: border-box;
+   background: rgba(0,0,0,.8);
+   color: #ffffff;
+   font-family: sans-serif;
+   text-align: center;
+}
+.addWineForm p
+{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;   
+}
+.addWineForm input
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.addWineForm input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #ff70d4;
+    background:rgba(32, 32, 32,0.5);
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+input::-webkit-input-placeholder,
+input:-ms-input-placeholder,
+input::-moz-placeholder
+{
+    color: rgba(225,225,225,.5);
+}
+.addWineForm input[type="submit"]
+{
+    margin: 1%;
+    bottom: 0;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff70d4;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.addWineForm input[type="submit"]:hover
+{
+    background:#d710a9;
+    color: #fff; 
+}
+select{
+    
+    width: 200px;
+    border: 1px solid #ff70d4;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+select option{
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #000;
+}
+.addWineForm h2{
+    margin: 5%;
+    border: 1px solid #ff70d4;
+}
